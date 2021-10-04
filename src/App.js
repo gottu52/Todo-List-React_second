@@ -1,8 +1,8 @@
 import "./styles.css";
-import React from "react";
+import React, { useState } from "react";
 
 export const App = () => {
-  return (
+  const [incomplete, setIncomplete] = useState(["aaa", "iii"]);
     <>
       {/* 入力欄 */}
       <div class="area" id="input-area">
